@@ -10,6 +10,12 @@ tags: []
 ## The holy grail of information
 <https://bookdown.org/yihui/blogdown>
 
+## Options that need to be set:
+
+```r
+options(servr.daemon = TRUE, blogdown.author = "Barbara")
+```
+
 ## Some info right off the bat (for free!!)
 This is a post written in plain Markdown (`*.md`) instead of R Markdown (`*.Rmd`). The major differences are:
 
