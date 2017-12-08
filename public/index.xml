@@ -40,5 +40,30 @@ Options that need to be set: options(servr.daemon = TRUE, blogdown.author = &amp
  You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
     </item>
     
+    <item>
+      <title>Shiny dev center articles</title>
+      <link>/articles/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/</guid>
+      <description>shiny-dev-center issue tracker
+ articles to be written (#65)
+ should have an article on eager vs lazy reactivity (#82):
+ This issue has come up a number of times, most recently in rstudio/shiny#1868: the descendants of reactive() react while the value does not change (#1868)  need an article on lazy evaluation (#76):
+ People often run into problems with lazy evaluation and it would be nice to point them to an article about it.</description>
+    </item>
+    
+    <item>
+      <title>rstudio::conf</title>
+      <link>/conf/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/conf/</guid>
+      <description> Edgar&amp;rsquo;s material  Edgar&amp;rsquo;s flight drilldrown dashboard live app
+ App code (on my own repo)
+ Edgar&amp;rsquo;s Rviews article (Enterprise-ready dashboards with Shiny and databases)
+  External resources for inspiration/lit review  Drillthrough, Drilldown, Subreports, and Nested Data Regions (Report Builder and SSRS)  Packages to keep in mind  Crosstalk  </description>
+    </item>
+    
   </channel>
 </rss>

@@ -10,7 +10,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "About"
+    name = "rstudio::conf"
+    url = "/conf/"
+
+[[menu.main]]
+    name = "articles"
+    url = "/articles/"
+
+[[menu.main]]
+    name = "about"
     url = "/about/"
 
 [params]
