@@ -19,5 +19,6 @@ date: '2017-12-08'
      - [This stackoverflow post talks about it a bit -- i.e. the differences between reactives and observers](https://stackoverflow.com/questions/39436713/r-shiny-reactivevalues-vs-reactive/39441145#39441145)
   
   - [my gist on the matter](https://gist.github.com/bborgesr/e1ce7305f914f9ca762c69509dda632e)
+  <!--- {{< gist bborgesr e1ce7305f914f9ca762c69509dda632e >}} ---> 
   
   - Joe's draft (on disk already)

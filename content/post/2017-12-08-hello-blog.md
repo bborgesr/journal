@@ -3,8 +3,8 @@ title: Hello Blog
 author: 'Barbara'
 date: '2017-12-08'
 slug: hello-blog
-categories: []
-tags: []
+categories: [reference]
+tags: [hugo, blogdown]
 ---
 
 ## The holy grails of information

@@ -10,14 +10,27 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "rstudio::conf"
     url = "/conf/"
+    weight = 1
 
 [[menu.main]]
     name = "articles"
     url = "/articles/"
+    weight = 2
 
 [[menu.main]]
     name = "about"
     url = "/about/"
+    weight = 3
+
+# [[menu.main]]
+#    name = "categories"
+#    url = "/categories/"
+#    weight = 3
+#    
+# [[menu.main]]
+#    name = "tags"
+#    url = "/tags/"
+#    weight = 4
 
 [params]
     description = "Keeping track of my pair programming session with Alan"
