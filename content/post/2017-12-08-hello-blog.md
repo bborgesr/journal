@@ -11,6 +11,9 @@ tags: []
 - <https://bookdown.org/yihui/blogdown>
 - <https://gohugo.io/getting-started/configuration/#configure-blackfriday>
 
+Courtesy of <https://gohugo.io/content-management/shortcodes/>:
+{{< youtube w7Ft2ymGmfc >}}
+
 ## Options that need to be set:
 
 ```r
