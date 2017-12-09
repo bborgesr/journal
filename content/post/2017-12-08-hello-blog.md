@@ -7,8 +7,9 @@ categories: []
 tags: []
 ---
 
-## The holy grail of information
-<https://bookdown.org/yihui/blogdown>
+## The holy grails of information
+- <https://bookdown.org/yihui/blogdown>
+- <https://gohugo.io/getting-started/configuration/#configure-blackfriday>
 
 ## Options that need to be set:
 
