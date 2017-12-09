@@ -13,6 +13,14 @@
     <span class="article-date">{{ .Date.Format "2006/01/02" }}</span>
     {{ end }}
 
+    {{ if and (gt .WordCount 400 ) (ne .Params.toc "false") }}
+    <aside class="table-of-contents">
+      <header class="toc-header">
+        <a href="#{{.Title | urlize}}"> <h3 class="{{.Section}}">{{.Title}}</h3> </a>
+      </header> {{.TableOfContents}}
+    </aside>
+    {{ end }}
+  
     <div class="article-content">
       {{ .Content }}
     </div>
