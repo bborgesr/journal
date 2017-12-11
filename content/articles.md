@@ -11,6 +11,8 @@ date: '2017-12-08'
 - [should have an article on eager vs lazy reactivity (#82)](https://github.com/rstudio/shiny-dev-center/issues/82):
 
   - This issue has come up a number of times, most recently in `rstudio/shiny#1868`: [the descendants of reactive() react while the value does not change (#1868)](https://github.com/rstudio/shiny/issues/1868)
+  
+  - Joe's draft (on disk already)
 
 - [need an article on lazy evaluation (#76)](https://github.com/rstudio/shiny-dev-center/issues/76):
 
@@ -21,4 +23,3 @@ date: '2017-12-08'
   - [my gist on the matter](https://gist.github.com/bborgesr/e1ce7305f914f9ca762c69509dda632e)
   <!--- {{< gist bborgesr e1ce7305f914f9ca762c69509dda632e >}} ---> 
   
-  - Joe's draft (on disk already)
