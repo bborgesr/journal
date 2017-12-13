@@ -18,19 +18,24 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 2
 
 [[menu.main]]
-    name = "about"
-    url = "/about/"
+    name = "backlog"
+    url = "/backlog/"
     weight = 3
 
 [[menu.main]]
-   name = "categories"
-   url = "/categories/"
-   weight = 4
-   
-[[menu.main]]
-   name = "tags"
-   url = "/tags/"
-   weight = 5
+    name = "about"
+    url = "/about/"
+    weight = 4
+
+# [[menu.main]]
+#    name = "categories"
+#    url = "/categories/"
+#    weight = 5
+#    
+# [[menu.main]]
+#    name = "tags"
+#    url = "/tags/"
+#    weight = 6
 
 [params]
     description = "Keeping track of my pair programming session with Alan"

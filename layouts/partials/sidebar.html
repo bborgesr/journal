@@ -1,0 +1,47 @@
+
+<aside>
+
+  <div class="colored">
+    <div class="block hide-small">
+      <h3>Search</h3>
+      <form action="https://www.google.com/search" target="_blank" class="search-form">
+        <input type="hidden" name="sitesearch" value="https://happy-torvalds-73f332.netlify.com" />
+        <input type="search" name="q" class="search" placeholder="Type and press Enter" />
+      </form>
+    </div>
+    
+    <div class="block hide-small">
+      <h3><span class="article-content"><a href="/categories/">Categories</a></span></h3>
+      <ul class="terms-list">
+        {{ range $key, $value := .Site.Taxonomies.categories }}
+        <li>
+          <a class="orange" href="{{ (print "/categories/" $key | urlize) | relURL }}">
+            {{ $key }}
+          </a>
+          ({{ len $value }})
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    
+    <div class="block hide-small">
+      <h3><span class="article-content"><a href="/tags/">Tags</a></span></h3>
+      <details>
+      <summary><span class="violet">Click to expand</span></summary>
+        <ul class="terms-list">
+      
+          {{ range $key, $value := .Site.Taxonomies.tags }}
+          <li>
+            <a class="orange" href="{{ (print "/tags/" $key | urlize) | relURL }}">
+              {{ $key }}
+            </a>
+            ({{ len $value }})
+          </li>
+          {{ end }}
+        </ul>
+        
+      </details>
+    </div>
+  </div>
+
+</aside>
