@@ -3,6 +3,8 @@
   float: left;
   width: 100px;
   padding: 0;
+  padding-top: 40px;
+  display: inherit !important; 
 }
 
 .table-of-contents ul {
@@ -41,6 +43,7 @@ aside {
   min-width: 170px;
   width: 14%;
   float: right;
+  padding-top: 20px;
   padding-left: 50px;
   padding-right: 5%;
   margin-left: 5%;
@@ -127,7 +130,7 @@ details[open] > summary > b {
 
 /* responsive */
 @media (max-width: 1245px) {
-  aside .hide-small, .colored { 
+  aside, .hide-small, .colored { 
     display: none; 
   }
   
