@@ -23,9 +23,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 3
 
 [[menu.main]]
+    name = "asana"
+    url = "https://app.asana.com/0/499937025252331/board"
+    weight = 4
+    
+[[menu.main]]
+    name = "community"
+    url = "https://community.rstudio.com/c/shiny"
+    weight = 5
+
+[[menu.main]]
     name = "about"
     url = "/about/"
-    weight = 4
+    weight = 6
 
 # [[menu.main]]
 #    name = "categories"
