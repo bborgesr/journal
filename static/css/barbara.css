@@ -3,8 +3,10 @@
   float: left;
   width: 100px;
   padding: 0;
-  padding-top: 40px;
+  padding-top: 35px;
   display: inherit !important; 
+  font-family: 'Lato';
+  font-size: large;
 }
 
 .table-of-contents ul {
@@ -13,6 +15,7 @@
 
 .table-of-contents li {
   margin: 0 0 0.25em 0;
+  line-height: 1.5;
 }
 
 .table-of-contents a {
@@ -32,7 +35,12 @@
 }
 
 #TableOfContents li {
-  list-style-type: disc;
+  list-style-type: decimal;
+}
+
+.table-of-contents ul ul ul li {
+  margin-left: 15px;
+  font-size: medium;
 }
 
 .content, .nav {
@@ -89,6 +97,11 @@ aside {
   box-shadow: inset 0 -3px 0 #dfcbf8;
 }
 
+.moreInfo {
+  margin: -30px 0 0 8%;
+  padding: 1%;
+}
+
 summary > span {
   /* content: '\25B6'; (for summary::before) */ 
   border-bottom: 3px solid #f8dfcb;
@@ -113,12 +126,26 @@ details[open] > summary > b {
   box-shadow: inset 0 0px 0 #dfcbf8;
 }
 
+details[open] {
+  border: 6px dashed #dfcbf8;
+  border-radius: 22px;
+}
+
+.colored details[open] {
+  border: 0;
+  border-radius: 0;
+}
+
+.table-of-contents details[open] {
+  border: 0;
+}
+
 .table-of-contents details[open] summary::-webkit-details-marker {
   color: #dfcbf8;
 }
 
 .innerAsset > * {
-  width: 80%; 
+  width: 100%; 
   margin: 0;
 }
 
@@ -168,8 +195,4 @@ details[open] > summary > b {
     display: none; 
   }
   */
-}
-
-@media (max-width: 650px) {
-
 }
