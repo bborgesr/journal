@@ -23,29 +23,24 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 3
 
 [[menu.main]]
-    name = "asana"
-    url = "https://app.asana.com/0/499937025252331/board"
+    name = "links"
+    url = "/links/"
     weight = 4
-    
-[[menu.main]]
-    name = "community"
-    url = "https://community.rstudio.com/c/shiny"
-    weight = 5
 
 [[menu.main]]
     name = "about"
     url = "/about/"
-    weight = 6
+    weight = 5
 
 # [[menu.main]]
 #    name = "categories"
 #    url = "/categories/"
-#    weight = 5
+#    weight = 6
 #    
 # [[menu.main]]
 #    name = "tags"
 #    url = "/tags/"
-#    weight = 6
+#    weight = 7
 
 [params]
     description = "Keeping track of my pair programming session with Alan"

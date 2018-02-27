@@ -1,4 +1,25 @@
 
+html {
+  background: url(../images/mars-50opacity.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* opacity: 0.5; */
+}
+
+.nav {
+  
+}
+
+.archive-item-link {
+  border-color: #c77d4e !important;
+}
+
+.archive-item-date, .article-date {
+  color: #725130 !important;
+}
+
 .table-of-contents {
   float: left;
   width: 100px;
