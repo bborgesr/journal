@@ -10,3 +10,4 @@ date: '2017-12-12'
 {{< figure src="/images/rstudioconf2018.png" link="https://github.com/bborgesr/rstudio-conf-2018">}}
 {{< figure src="/images/rstudio-conf.png" link="https://github.com/bborgesr/rstudio-conf">}}
 {{< figure src="/images/journal.png" link="https://github.com/bborgesr/journal">}}
+{{< figure src="/images/amazoncouk.png" link="https://smile.amazon.co.uk/gp/cart/view.html/ref=nav_cart">}}
