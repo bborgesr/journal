@@ -12,3 +12,5 @@ date: '2017-12-12'
 {{< figure src="/images/journal.png" link="https://github.com/bborgesr/journal">}}
 {{< figure src="/images/shinyrecorder.png" link="https://github.com/rstudio/shinyRecorder">}}
 {{< figure src="/images/amazoncouk.png" link="https://smile.amazon.co.uk/gp/cart/view.html/ref=nav_cart">}}
+
+- [diagrams](/reference/sequence_diagrams/)

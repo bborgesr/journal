@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+{{ partial "sidebar.html" . }}
+
+<main class="content" role="main">
+
+  <article class="article">
+    <h1 class="article-title">{{ .Title }}</h1>
+
+    {{ if eq .Section "post" }}
+    <span class="article-date">{{ .Date.Format "2006/01/02" }}</span>
+    {{ end }}
+  
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+  </article>
+
+  <div id="diagram"></div>
+  <script>
+    var user_text = document.getElementById("diagram_txt");
+    var diagram_div = document.getElementById("diagram");
+    
+    // update the diagram whenever the text in the textarea changes 
+    user_text.addEventListener("input", function() {
+      diagram_div.innerHTML = "";
+      var diagram = Diagram.parse(user_text.value);
+      diagram.drawSVG("diagram", {theme: "simple"});
+    }, false);
+  </script>
+
+</main>
+
+{{ partial "footer.html" . }}
