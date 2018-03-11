@@ -8,6 +8,7 @@ date: '2018-03-11'
 
 Anyway, the long rambling point is simply that the idea of flying, the idea of Mars, the idea that "sometimes, though, pipe dreams spill over into reality"[^fn3] is beginning to feel inspiring, even real at times, again. So, I'm going to hold on to that. I wanna go to Mars. And I want to continue dreaming of flying, And I wanna continue living with my head among the clouds, reading and writing and building whatever the fuck I want. And then one day I'll take that all to Mars, and _that_ will be the trip of a lifetime.
 
+{{< youtube A0FZIwabctw >}}
 {{< youtube 3n71KUiWn1I >}}
 
 [^fn1]: _Dirk Gently's Holistic Detective Agency_, Season 1, Episode 1, "Horizons"
